@@ -1,0 +1,47 @@
+.full{
+    display: flex;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.437);
+    
+}
+.content{
+    
+    padding: 20px;
+   margin-top: 50px;
+   margin-left: 75px;
+    max-height: 150px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 9%;
+    background-color: bisque;
+    color: rgb(1, 1, 1);
+   backdrop-filter: blur(3px);
+   position: relative;
+
+}
+img{
+    height:60vh;
+    border-radius: 8%;
+    position: absolute;
+    margin-top: 4%;
+    left:650px;  
+
+}
+.head{
+    font-size: 18px;
+    
+   
+}
+.content input{
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    height: 55px;
+    width: 300px;
+}
+.content button{
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
